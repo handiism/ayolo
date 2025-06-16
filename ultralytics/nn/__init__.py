@@ -12,7 +12,6 @@ from .tasks import (
     parse_model,
     torch_safe_load,
     yaml_model_load,
-    SEBlock,
 )
 
 __all__ = (
@@ -27,5 +26,4 @@ __all__ = (
     "SegmentationModel",
     "ClassificationModel",
     "BaseModel",
-    "SEBlock",
 )
